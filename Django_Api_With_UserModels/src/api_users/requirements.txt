@@ -1,0 +1,22 @@
+appdirs==1.4.3
+Django==2.0.2
+djangorestframework==3.7.7
+packaging==16.8
+pyparsing==2.2.0
+pytz==2018.3
+six==1.11.0
+
+""" Commands to get you started """
+
+1) Pacakges:  pip install django djangorestframework pyparsing six packaging appdirs
+2) Directory: mkdir src  
+3) cd src
+4) Create: django-admin.py startproject api_users
+5) cd api_users
+5) Create api: python manage.py startapp user_api
+6) Server: python manage.py runserver 0.0.0.0:8080
+7) DBMake: python manage.py makemigrations
+8) DBMigrate: python manage.py migrate
+9) Create superuser: python manage.py createsuperuser
+
+
