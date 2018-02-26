@@ -3,10 +3,15 @@ Python open source projects: Includes APIs and web applications.
 
 
 https://virtualenv.pypa.io/en/latest/installation/
-for all project you should create seperate envs
+
+For all project you should create seperate envs
+
+
 "virtualenv -p python3 nameofyourenv"
 
+
 Django: https://www.djangoproject.com/
+
 1) Pacakges:  pip install django djangorestframework pyparsing six packaging appdirs
 2) Directory: mkdir src  
 3) cd src
@@ -19,4 +24,5 @@ Django: https://www.djangoproject.com/
 9) Create superuser: python manage.py createsuperuser
 
 Flask: http://flask.pocoo.org/
+
 1) Packages: pip install Flask Flask-JWT Flask-RESTful Flask-SQLAlchemy
